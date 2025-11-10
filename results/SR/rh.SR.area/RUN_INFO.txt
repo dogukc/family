@@ -1,6 +1,0 @@
-model_key: M3_SRcbcl9
-hemi: rh
-metric: vw_area
-seed: 3108
-n_cores: 1
-date: 2025-11-06 13:53:35

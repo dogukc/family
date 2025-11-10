@@ -1,6 +1,0 @@
-model_key: M2_post_risk
-hemi: lh
-metric: vw_area
-seed: 3108
-n_cores: 1
-date: 2025-11-06 02:37:17

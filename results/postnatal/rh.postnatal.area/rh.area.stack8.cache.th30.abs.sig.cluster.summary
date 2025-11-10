@@ -1,0 +1,54 @@
+# Cluster Growing Summary (mri_surfcluster)
+# $Id: mri_surfcluster.c,v 1.57.2.3 2016/11/17 18:19:42 zkaufman Exp $
+# $Id: mrisurf.c,v 1.781.2.6 2016/12/27 16:47:14 zkaufman Exp $
+# CreationTime 2025/11/06-05:19:27-GMT
+# cmdline mri_surfcluster.bin --in /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY/verywise_area/M2_post_risk_rh/rh.area.stack8.-log10p.mgh --csd /gpfs/home6/genr/software/freesurfer/6.0.0//average/mult-comp-cor/fsaverage/rh/cortex/fwhm16/abs/th30/mc-z.csd --ocn /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY/verywise_area/M2_post_risk_rh/rh.area.stack8.cache.th30.abs.sig.ocn.mgh --sum /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY/verywise_area/M2_post_risk_rh/rh.area.stack8.cache.th30.abs.sig.cluster.summary --annot aparc --cwpvalthresh 0.05 --no-fixmni --surf white --mask /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY/verywise_area/M2_post_risk_rh/rh.area.finalMask.mgh 
+# cwd /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY
+# sysname  Linux
+# hostname tcn660.local.snellius.surf.nl
+# machine  x86_64
+# FixVertexAreaFlag 1
+# FixSurfClusterArea 1
+# 
+# Input      /gpfs/work2/0/einf1049/scratch/dkoc/FAMILY/verywise_area/M2_post_risk_rh/rh.area.stack8.-log10p.mgh
+# Frame Number      0
+# srcsubj fsaverage
+# hemi rh
+# surface white
+# group_avg_surface_area 82167.6
+# group_avg_vtxarea_loaded 1
+# annot aparc
+# SUBJECTS_DIR /gpfs/work2/0/einf1049/data/GenR_MRI/bids/derivatives/freesurfer/6.0.0/qdecr/
+# SearchSpace_mm2 74663.1
+# SearchSpace_vtx 145539
+# Bonferroni 0
+# Minimum Threshold 3
+# Maximum Threshold infinity
+# Threshold Sign    abs
+# AdjustThreshWhenOneTail 1
+# CW PValue Threshold: 0.05 
+# Area Threshold    0 mm^2
+# CSD thresh  3.000000
+# CSD nreps    10000
+# CSD simtype  null-z
+# CSD contrast NA
+# CSD confint  90.000000
+# Overall max 5.72518 at vertex 44387
+# Overall min 0 at vertex 10
+# NClusters          13
+# FixMNI = 0
+# 
+# ClusterNo  Max   VtxMax   Size(mm^2)  MNIX   MNIY   MNIZ    CWP    CWPLow    CWPHi   NVtxs    WghtVtx   Annot
+   1        5.725   44387   1249.90     31.4  -30.4   62.4  0.00010  0.00000  0.00020   2865    11443.08  postcentral
+   2        4.880   19144    807.20     25.3   46.1   30.3  0.00010  0.00000  0.00020   1168     4274.62  rostralmiddlefrontal
+   3        4.434   72757    723.11     37.4   25.8   43.0  0.00010  0.00000  0.00020   1311     4696.87  caudalmiddlefrontal
+   4        3.841   40596    650.04     46.3  -61.5   -6.3  0.00010  0.00000  0.00020    914     2995.58  inferiortemporal
+   5        4.031   15696    631.86     31.0  -37.5  -22.1  0.00010  0.00000  0.00020   1213     4106.10  fusiform
+   6        4.128   30190    565.27     18.2  -50.6   -4.6  0.00010  0.00000  0.00020    974     3401.54  lingual
+   7        3.789  137716    489.99     56.1  -25.2  -24.3  0.00010  0.00000  0.00020    749     2442.85  inferiortemporal
+   8        3.765   77166    333.41     37.5   11.3   22.6  0.00100  0.00060  0.00140    767     2549.46  parsopercularis
+   9        4.045   54807    273.55     59.1  -39.9   -5.6  0.00470  0.00380  0.00560    558     1927.99  middletemporal
+  10        3.621   46018    223.94     14.4  -91.9   14.7  0.01450  0.01300  0.01600    277      906.69  lateraloccipital
+  11        4.155  134313    209.18     44.6   28.7  -13.1  0.01870  0.01700  0.02040    359     1224.27  parsorbitalis
+  12        3.937   22941    180.18     47.9  -14.1  -17.3  0.03320  0.03090  0.03550    332     1135.89  superiortemporal
+  13        4.416   30794    173.60     53.7    6.3    1.8  0.03790  0.03550  0.04040    328     1176.08  precentral

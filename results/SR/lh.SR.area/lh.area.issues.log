@@ -1,0 +1,5 @@
+32400	Model failed to converge with max|grad| = 0.00441213 (tol = 0.002, component 1)
+65641	Model failed to converge with max|grad| = 0.00428419 (tol = 0.002, component 1)
+83688	Model failed to converge with max|grad| = 0.00440264 (tol = 0.002, component 1)
+99290	Model failed to converge with max|grad| = 0.00428773 (tol = 0.002, component 1)
+138013	Model failed to converge with max|grad| = 0.00408665 (tol = 0.002, component 1)

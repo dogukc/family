@@ -1,0 +1,8 @@
+model_key: M_SR_YSR14
+predictor: SR_ysr_14s
+metric: vw_area
+hemi: rh
+seed: 3108
+n_cores: 1
+date: 2025-11-13 01:03:58
+formula: vw_area ~ SR_ysr_14s + age + sex_child + ethnicity + m_age_intake + m_education_pregnancy + income_once + (1|IDC)
